@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "target": "es2019",
+    "module": "commonjs",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "inlineSourceMap": true,
+    "types": [
+      "node",
+      "@wdio/mocha-framework",
+      "@wdio/sync"
+    ],
+    "typeRoots": ["./types"]
+  }
+}
+
